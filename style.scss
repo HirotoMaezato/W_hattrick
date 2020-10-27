@@ -1,0 +1,97 @@
+$main-color:  #C44816;
+$sub-color: #2D579A;
+
+body {
+    height: 100vh;
+    max-width: 1024px;
+    margin: auto;
+    font-family: 'Noto Sans JP', sans-serif;
+    // background-image: linear-gradient($main-color, $sub-color);
+    background-image: linear-gradient(45deg, #f4c14e, #d36950);
+    color: white;
+}
+
+header {
+    // background-color: white;
+    // background-color: black;
+    // background-image: linear-gradient(45deg, #f4c14e, #d36950);
+    height: 54px;
+    max-width: 1024px;
+    padding: 15px;
+}
+
+main {
+    max-width: 1024px;
+    margin: auto;
+}
+.box {
+    width: 80%;
+    margin: auto;
+}
+
+.displayFlex {
+    display: flex;
+    justify-content: space-around;
+}
+.textCenter {
+    text-align: center;
+}
+
+.signup {
+    padding: 0;
+    margin: 0;
+    margin: auto;
+    border-radius: 50px;
+    // background: #eef9fb;
+    background-image: linear-gradient(45deg, #f4c14e, #d36950);
+    box-shadow:  16px 16px 37px#cc6f06, 
+             -14px -14px 45px #ec9513;
+    height: 400px;
+    width: 300px;
+}
+
+
+// .form-container {
+//     width: 100%;
+//     margin: 100px;
+// }
+
+// .jender {
+//     display: flex;
+//     justify-content: space-around;
+// }
+
+
+
+
+
+.btn-info {
+    background-color: $sub-color;
+    border-color: $sub-color;
+}
+.submitBtn {
+    padding: .4rem 6rem;
+    border-radius: 50px;
+}
+
+
+
+
+
+// バリデーション
+
+// svg {
+//     color: white;
+// }
+
+.invalid-feedback {
+    color:  $main-color;
+}
+
+.form-control.is-invalid {
+    color:  $main-color;
+    border-color:   $main-color;
+}
+
+
+
