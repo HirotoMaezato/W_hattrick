@@ -1,0 +1,122 @@
+$main-color:  #C44816;
+$sub-color: #2D579A;
+
+// base///////////////////////////////////////////////////////
+body {
+    height: 1000px;
+    // height: 812px;
+    max-width: 1024px;
+    margin: auto;
+    font-family: 'Noto Sans JP', sans-serif;
+    // color: white;
+}
+
+header {
+    height: 54px;
+    max-width: 1024px;
+    padding: 15px;
+    a {
+        color: black;
+        &:visited {
+            color: black;
+        }
+    }
+}
+main {
+    max-width: 1024px;
+    margin: auto;
+}
+.box {
+    width: 70%;
+    margin: auto;
+}
+.displayFlex {
+    display: flex;
+    // justify-content: space-around;
+    // flex-wrap: nowrap;
+    // flex-direction: row;
+    // justify-content: flex-start;
+    // flex-wrap: wrap;
+}
+.textCenter {
+    text-align: center;
+}
+/////////////////////////////////////////////////////////
+
+.colorBlack {
+    color: black;
+}
+
+.scrollParent {
+    width: 100%;
+    overflow-x: scroll;
+    // white-space: nowrap;
+    // overflow-x: auto;
+    // overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch;
+    // height: 100vh;
+    // border: 1px solid black;
+    &::-webkit-scrollbar {
+        display: none;
+      }
+}
+
+.scrollChild {
+    // width: 100px;
+    // height: 100px;
+    // background-color: #ddd;
+    // border: 1px solid red;
+    flex: 0 0 100px;
+    // ↑こいつがあるおかげでいい感じにスクロールできてる。なぜかはわからない
+}
+
+.BTN {
+    background-color: $sub-color;
+    border-color: $sub-color;
+    color: white;
+    padding: .4rem 4rem;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+.fixedButton {
+    position: fixed;
+    top: 750px;
+    left: 53px;
+}
+
+
+// 実験
+// .a{
+//     width: 100px;
+//     height: 100px;
+//     background-color: #ddd;
+//     border: 1px solid red;
+//     flex: 0 0 100px;
+// }
+// .b {
+//     width: 100%;
+//     overflow-x: scroll;
+//     white-space: nowrap;
+//     // overflow-x: auto;
+//     overflow-scrolling: touch;  /* スクロールを滑らかにする */
+//     -webkit-overflow-scrolling: touch;  /* スクロールを滑らかにする */
+//     // height: 100vh;
+//     border: 1px solid black;
+// }
+
+
+
+
+// バリデーション
+.invalid-feedback {
+    color:  $main-color;
+}
+
+.form-control.is-invalid {
+    color:  $main-color;
+    border-color:   $main-color;
+}
+
+
+

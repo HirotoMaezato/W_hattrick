@@ -1,0 +1,56 @@
+$main-color:  #C44816;
+$sub-color: #2D579A;
+
+body {
+    height: 100vh;
+    max-width: 1024px;
+    margin: auto;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+}
+
+header {
+    height: 54px;
+    max-width: 1024px;
+    padding: 15px;
+    a {
+        color: white;
+        &:visited {
+            color: white;
+        }
+    }
+}
+main {
+    max-width: 1024px;
+    margin: auto;
+}
+.box {
+    width: 80%;
+    margin: auto;
+}
+.displayFlex {
+    display: flex;
+    justify-content: space-around;
+}
+.textCenter {
+    text-align: center;
+}
+
+
+
+
+
+
+
+// バリデーション
+.invalid-feedback {
+    color:  $main-color;
+}
+
+.form-control.is-invalid {
+    color:  $main-color;
+    border-color:   $main-color;
+}
+
+
+
