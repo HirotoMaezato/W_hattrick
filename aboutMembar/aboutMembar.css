@@ -1,0 +1,109 @@
+body {
+  height: 100vh;
+  max-width: 1024px;
+  margin: auto;
+  font-family: 'Noto Sans JP', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 54px;
+  max-width: 1024px;
+  padding: 15px;
+}
+
+header .navbar {
+  padding: 0;
+}
+
+header .navbar a {
+  color: black;
+}
+
+header .navbar a:visited {
+  color: black;
+}
+
+main {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.box {
+  width: 80%;
+  margin: auto;
+}
+
+.displayFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.displayFlex1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.displayFlex2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.fontBold {
+  font-weight: bold;
+}
+
+.underLine {
+  border-bottom: 1px solid #a9a9a9;
+}
+
+.margin10px {
+  margin: .5px;
+}
+
+.aboutMembar-wrap {
+  width: 90%;
+  margin: auto;
+}
+
+.abotMembuar-wrap1 {
+  width: 90%;
+  margin: auto;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.instaID {
+  color: #a9a9a9;
+  font-size: 12px;
+}
+
+.participated-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.invalid-feedback {
+  color: #C44816;
+}
+
+.form-control.is-invalid {
+  color: #C44816;
+  border-color: #C44816;
+}
+/*# sourceMappingURL=aboutMembar.css.map */

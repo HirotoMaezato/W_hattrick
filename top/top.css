@@ -11,11 +11,15 @@ header {
   padding: 15px;
 }
 
-header a {
+header .navbar {
+  padding: 0;
+}
+
+header .navbar a {
   color: black;
 }
 
-header a:visited {
+header .navbar a:visited {
   color: black;
 }
 

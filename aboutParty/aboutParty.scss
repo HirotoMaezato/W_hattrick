@@ -1,0 +1,157 @@
+$main-color:  #C44816;
+$sub-color: #2D579A;
+
+// base///////////////////////////////////////////////////////
+body {
+    height: 1200px;
+    max-width: 1024px;
+    margin: auto;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: black;
+    p {
+        margin: 0;
+        padding: 0;
+    }
+    a {
+        color: black
+    }
+}
+
+header {
+    height: 54px;
+    max-width: 1024px;
+    padding: 15px;
+    // background-color: red;
+    .navbar {
+        padding: 0;
+        a {
+            color: black;
+            &:visited {
+                color: black;
+            }
+        }
+
+    }
+}
+main {
+    max-width: 1024px;
+    margin: auto;
+}
+.box {
+    width: 80%;
+    margin: auto;
+}
+.box1 {
+    width: 90%;
+    // margin: auto;
+}
+.displayFlex {
+    display: flex;
+    justify-content: space-between;
+}
+.displayFlex1 {
+    display: flex;
+    // justify-content: space-between;
+}
+.textCenter {
+    text-align: center;
+}
+.fontBold {
+    font-weight: bold;
+}
+////////////////////////////////////////////////////////////////////////////////
+// .backMainColor {
+//     background-color: $main-color;
+//     height: 280px;
+// }
+// .backSubColor {
+//     background-color: $sub-color;
+//     height: 600px
+// }
+
+.mainColor{
+    color: $main-color;
+}
+
+.party-container {
+    width: 85%;
+    margin: auto;
+}
+
+.party-underline {
+    border-bottom: 1px solid #a9a9a9;
+    // width: 80%;
+    padding-bottom: 1rem;
+}
+
+.party-title {
+    width: 90%;
+    font-size: 22px;
+    // margin: auto;
+    font-weight: bold;
+}
+// .party-leader {
+    
+// }
+.party-address {
+    color: #a9a9a9;
+    font-size: 12px;
+    width: 80%;
+    // margin: auto;
+}
+
+.party-discription {
+    color: #484848;
+    font-size: 16px;
+}
+
+.BTN {
+    background-color: $sub-color;
+    border-color: $sub-color;
+    color: white;
+    padding: .4rem 4rem;
+    border-radius: 50px;
+    font-size: 15px;
+}
+.fixedButton {
+    position: fixed;
+    top: 750px;
+    left: 53px;
+}
+
+.man {
+    // border: 1px solid $sub-color;
+    width: 48%;
+    // height: 300px
+}
+.woman {
+    // border: 1px solid $main-color;
+    width: 48%;
+    // height: 300px
+}
+// .membar-icon {
+
+// }
+.membar-name {
+    font-size: 10px;
+}
+.membar-id {
+    font-size: 3px;
+    color: #a9a9a9;
+}
+
+
+
+
+// バリデーション
+.invalid-feedback {
+    color:  $main-color;
+}
+
+.form-control.is-invalid {
+    color:  $main-color;
+    border-color:   $main-color;
+}
+
+
+

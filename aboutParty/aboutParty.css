@@ -1,0 +1,144 @@
+body {
+  height: 1200px;
+  max-width: 1024px;
+  margin: auto;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: black;
+}
+
+body p {
+  margin: 0;
+  padding: 0;
+}
+
+body a {
+  color: black;
+}
+
+header {
+  height: 54px;
+  max-width: 1024px;
+  padding: 15px;
+}
+
+header .navbar {
+  padding: 0;
+}
+
+header .navbar a {
+  color: black;
+}
+
+header .navbar a:visited {
+  color: black;
+}
+
+main {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.box {
+  width: 80%;
+  margin: auto;
+}
+
+.box1 {
+  width: 90%;
+}
+
+.displayFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.displayFlex1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.fontBold {
+  font-weight: bold;
+}
+
+.mainColor {
+  color: #C44816;
+}
+
+.party-container {
+  width: 85%;
+  margin: auto;
+}
+
+.party-underline {
+  border-bottom: 1px solid #a9a9a9;
+  padding-bottom: 1rem;
+}
+
+.party-title {
+  width: 90%;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.party-address {
+  color: #a9a9a9;
+  font-size: 12px;
+  width: 80%;
+}
+
+.party-discription {
+  color: #484848;
+  font-size: 16px;
+}
+
+.BTN {
+  background-color: #2D579A;
+  border-color: #2D579A;
+  color: white;
+  padding: .4rem 4rem;
+  border-radius: 50px;
+  font-size: 15px;
+}
+
+.fixedButton {
+  position: fixed;
+  top: 750px;
+  left: 53px;
+}
+
+.man {
+  width: 48%;
+}
+
+.woman {
+  width: 48%;
+}
+
+.membar-name {
+  font-size: 10px;
+}
+
+.membar-id {
+  font-size: 3px;
+  color: #a9a9a9;
+}
+
+.invalid-feedback {
+  color: #C44816;
+}
+
+.form-control.is-invalid {
+  color: #C44816;
+  border-color: #C44816;
+}
+/*# sourceMappingURL=aboutParty.css.map */
