@@ -1,0 +1,107 @@
+body {
+  height: 100vh;
+  max-width: 1024px;
+  margin: auto;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: black;
+}
+
+header {
+  height: 54px;
+  max-width: 1024px;
+  padding: 15px;
+}
+
+header .navbar {
+  padding: 0;
+}
+
+header .navbar a {
+  color: black;
+}
+
+header .navbar a:visited {
+  color: black;
+}
+
+main {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.box {
+  width: 80%;
+  margin: auto;
+}
+
+.displayFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.displayFlex1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.underLine {
+  border-bottom: 1px solid #a9a9a9;
+}
+
+.box1 {
+  width: 20%;
+  margin: auto;
+}
+
+.iconInput {
+  display: none;
+}
+
+.iconLabel {
+  color: #2D579A;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.iconLabel::before {
+  content: "";
+  display: block;
+  width: 155px;
+  height: 1px;
+  background-color: #C44816;
+  position: relative;
+  top: 22px;
+}
+
+.userName-wrap {
+  width: 80%;
+  margin: auto;
+}
+
+.userNameLabel {
+  font-size: 12px;
+  color: #a9a9a9;
+}
+
+.userNameInput {
+  width: 80%;
+  margin: auto;
+}
+
+.invalid-feedback {
+  color: #C44816;
+}
+
+.form-control.is-invalid {
+  color: #C44816;
+  border-color: #C44816;
+}
+/*# sourceMappingURL=editProfile.css.map */
