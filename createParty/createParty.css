@@ -1,0 +1,115 @@
+body {
+  height: 100vh;
+  max-width: 1024px;
+  margin: auto;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: white;
+}
+
+header {
+  height: 54px;
+  max-width: 1024px;
+  padding: 15px;
+}
+
+header .navbar {
+  padding: 0;
+}
+
+header .navbar a {
+  color: black;
+}
+
+header .navbar a:visited {
+  color: black;
+}
+
+main {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.box {
+  width: 80%;
+  margin: auto;
+}
+
+.box2 {
+  width: 80%;
+  margin: auto;
+}
+
+.displayFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+span {
+  font-size: 6px;
+  color: #2D579A;
+}
+
+.shopName-wrap {
+  width: 80%;
+  margin: auto;
+}
+
+.shopNameLabel {
+  font-size: 12px;
+  color: #a9a9a9;
+}
+
+.shopDiscription-wrap {
+  width: 80%;
+  margin: auto;
+}
+
+.shopDiscriptionLabel {
+  font: 12px;
+  color: #a9a9a9;
+}
+
+.shopAddress-wrap {
+  width: 80%;
+  margin: auto;
+}
+
+.shopAddressLabel {
+  font: 12px;
+  color: #a9a9a9;
+}
+
+.date-wrap {
+  width: 65%;
+}
+
+.dateLabel {
+  font: 12px;
+  color: #a9a9a9;
+}
+
+.time-wrap {
+  width: 35%;
+}
+
+.timeLabel {
+  font: 12px;
+  color: #a9a9a9;
+}
+
+.invalid-feedback {
+  color: #C44816;
+}
+
+.form-control.is-invalid {
+  color: #C44816;
+  border-color: #C44816;
+}
+/*# sourceMappingURL=createParty.css.map */

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W_HatTrick | インスタがプロフィールでいいじゃん</title>
+
+    <!-- reset.css -->
+    <link rel="stylesheet" href="./ress.css">
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- FontAwsome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <!-- Google font CDN -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="createParty.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a class="navbar-brand" href="#"></a>
+            <!-- <a><i class="fas fa-cog"></i></a> -->
+            <a href="#">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-gear" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8.837 1.626c-.246-.835-1.428-.835-1.674 0l-.094.319A1.873 1.873 0 0 1 4.377 3.06l-.292-.16c-.764-.415-1.6.42-1.184 1.185l.159.292a1.873 1.873 0 0 1-1.115 2.692l-.319.094c-.835.246-.835 1.428 0 1.674l.319.094a1.873 1.873 0 0 1 1.115 2.693l-.16.291c-.415.764.42 1.6 1.185 1.184l.292-.159a1.873 1.873 0 0 1 2.692 1.116l.094.318c.246.835 1.428.835 1.674 0l.094-.319a1.873 1.873 0 0 1 2.693-1.115l.291.16c.764.415 1.6-.42 1.184-1.185l-.159-.291a1.873 1.873 0 0 1 1.116-2.693l.318-.094c.835-.246.835-1.428 0-1.674l-.319-.094a1.873 1.873 0 0 1-1.115-2.692l.16-.292c.415-.764-.42-1.6-1.185-1.184l-.291.159A1.873 1.873 0 0 1 8.93 1.945l-.094-.319zm-2.633-.283c.527-1.79 3.065-1.79 3.592 0l.094.319a.873.873 0 0 0 1.255.52l.292-.16c1.64-.892 3.434.901 2.54 2.541l-.159.292a.873.873 0 0 0 .52 1.255l.319.094c1.79.527 1.79 3.065 0 3.592l-.319.094a.873.873 0 0 0-.52 1.255l.16.292c.893 1.64-.902 3.434-2.541 2.54l-.292-.159a.873.873 0 0 0-1.255.52l-.094.319c-.527 1.79-3.065 1.79-3.592 0l-.094-.319a.873.873 0 0 0-1.255-.52l-.292.16c-1.64.893-3.433-.902-2.54-2.541l.159-.292a.873.873 0 0 0-.52-1.255l-.319-.094c-1.79-.527-1.79-3.065 0-3.592l.319-.094a.873.873 0 0 0 .52-1.255l-.16-.292c-.892-1.64.902-3.433 2.541-2.54l.292.159a.873.873 0 0 0 1.255-.52l.094-.319z"/>
+                <path fill-rule="evenodd" d="M8 5.754a2.246 2.246 0 1 0 0 4.492 2.246 2.246 0 0 0 0-4.492zM4.754 8a3.246 3.246 0 1 1 6.492 0 3.246 3.246 0 0 1-6.492 0z"/>
+            </svg>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <form action="">
+        <div class="shopName-wrap mt-5">
+            <label class="shopNameLabel" for="formGroupExampleInput">店名</label>
+            <input type="text" class="form-control " id="formGroupExampleInput" placeholder="和民">
+        </div>
+        <div class="shopAddress-wrap mt-3">
+            <label class="shopAddressLabel" for="formGroupExampleInput">住所</label>
+            <input type="text" class="form-control " id="formGroupExampleInput" placeholder="那覇市">
+        </div>
+
+        <div class="displayFlex box2">
+            <div class="date-wrap mt-3">
+                <label class="dateLabel" for="formGroupExampleInput">日付<span class="ml-3">何日から？</span></label>
+                <input type="date" class="form-control " id="formGroupExampleInput" placeholder="">
+            </div>
+            <div class="time-wrap mt-3">
+                <label class="timeLabel" for="formGroupExampleInput">時間<span class="ml-3">何時から？</span></label>
+                <input type="time" class="form-control " id="formGroupExampleInput" placeholder="">
+            </div>
+        </div>
+
+        <div class="shopDiscription-wrap mt-4">
+            <label class="shopDiscriptionLabel" for="exampleFormControlTextarea1">詳細<span class="ml-3">500文字まで記入可能です</span></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-outline-info ml-5 mt-4">作成する</button>
+
+    </form>
+    </main>
